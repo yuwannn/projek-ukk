@@ -8,4 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class kategoribuku extends Model
 {
     use HasFactory;
+    protected $fillable = ['namakategori'];
+    protected $table = 'kategoribukus';
+    public $timestamps = true;
 }
